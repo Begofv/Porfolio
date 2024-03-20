@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="contacto" content="contacto">
+    <title>contacto</title> 
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="general.css">
+    <link href='https://fonts.googleapis.com/css?family=Scheherazade New' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href=".home.html">Home</a></li>    
+            <li><a href=".biografia.html">Biografía</a></li>
+            <li><a href=".porfolio.html">Porfolio</a></li>
+            <li><a href=".contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="contactame" id="contactame">
+            <section>
+                <h1>Mandame un mensaje</h1>
+                <h3>¿Tienes alguna pregrunta o proposición? ¿O solo quieres saludar? Adelante</h3>
+            </section>
+           <section class="formulario" id="formulario">
+            <from class="formulario contacto" method="post" target="_blank" action="ssssss" id="formulario contcto">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required="requerido" placeholder="Ejemplo:María..."><br>
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" id="apellido" name="apellido" required="requerido" placeholder="Ejemplo:Garcia..."><br>
+                <label for="email"> Email:</label><br>
+                <input type="email" id="email" name="Email" required="requerido" placeholder="ejemplo@gmail.com"><br></br>
+                    
+                <p>¿Por qué quiere contactarme?</p>
+                <input type="checkbox" id="interes1" name="interes1" value="Experiencia">
+                <label for="interes1"> La experiencia profesional</label><br>
+                <input type="checkbox" id="interes2" name="interes2" value="Proposición">
+                <label for="interes2"> Una proposición de trabajo</label><br>
+                <input type="checkbox" id="interes3" name="interes3" value="Saludar">
+                <label for="interes3"> Saludar</label><br><br>
+                            
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea placeholder="Escriba aquí su mensaje..."id="mensaje" name="mensaje" required="requerido" row="10" minlength="50"></textarea>
+                <br><br>
+                <input type="submit" value="Enviar">
+            </from>
+           </section>
+        </article>
+    </main>
+    <footer>
+        <p>Derechos de autor © 2021 Mi sitio web</p>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+          </ul>
+        </nav>
+      </footer>
+</body>
+</html>

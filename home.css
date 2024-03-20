@@ -1,0 +1,66 @@
+body {
+    font-family: 'Scheherazade New';font-size: 22px;
+}
+main {
+    background-color: #9FADBF;
+}
+
+header {
+    justify-content: flex-end;
+}
+img{
+    opacity: 0.7;
+    height: 400px;
+    width: 300px;
+}
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+
+    #main-header {
+        background: #333;
+        color: white;
+        height: 80px;
+    }	
+        #main-header a {
+            color: white;
+        }
+    
+    /*
+     * Logo
+   
+    #logo-header {
+        float: left;
+        padding: 15px 0 0 20px;
+        text-decoration: none;
+    }
+        #logo-header:hover {
+            color: #0b76a6;
+        }
+        
+        #logo-header .site-name {
+            display: block;
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+        
+        #logo-header .site-desc {
+            display: block;
+            font-weight: 300;
+            font-size: 0.8em;
+            color: #999;
+        }
+        
+    
+    /*
+     * Navegación
+     */
