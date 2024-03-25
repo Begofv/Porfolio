@@ -1,6 +1,45 @@
 body {
     font-family: 'Scheherazade New';font-size: 22px;
 }
-p{
+#descripcion{
+    box-sizing: content-box;
+
+}
+.fotoBego {
+    margin-right: 100px; /* Margen a la derecha para separar la imagen del texto */
+    margin-left: 100px;
+    margin-top: 150px;
+    opacity: 0.7;
+}
+img {
+    margin-top: 150px;
+    width: 25%; /* Reducir el ancho al 50% */
+    height: 25%; /* Reducir la altura al 50% */
+}
+
+#descripcion {
+    box-sizing: content-box;
+    margin: 250px;
     text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    
+    position: absolute;
+    right: 0px;
+    width: 800px;
+    padding: 10px;
+      
+}
+.contacto:hover {
+    cursor:pointer;
+}
+
+#contacto {
+    background-color: #D7DDD5;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    margin-top: 150px;
+    float: right;
+    text-align: right;
+    color: #9EA69B;
 }

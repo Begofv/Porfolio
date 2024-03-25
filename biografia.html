@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="biografia" content="biografia">
-    <title>Biografia</title> 
-    <link rel="stylesheet" href="biografia.css">
-    <link rel="stylesheet" href="general.css">
-    <link href='https://fonts.googleapis.com/css?family=Scheherazade New' rel='stylesheet'>
-
+    <meta name="home" content="home bego">
+    <title>home</title> 
+ 
 </head>
-<body>
+<body class="homeBego">
+    <div>
+        <link rel="stylesheet" href="biografia.css">
+        <link rel="stylesheet" href="general.css">
+    <link href='https://fonts.googleapis.com/css?family=Scheherazade New' rel='stylesheet'>
+    </div>
     <header>
-        <nav>
+        <nav class="barra_navegacion">
             <ul>
-            <li><a href=".home.html">Home</a></li>    
-            <li><a href=".biografia.html">Biografía</a></li>
-            <li><a href=".porfolio.html">Porfolio</a></li>
-            <li><a href=".contacto.html">Contacto</a></li>
+            <li class="izquierda"><a href="biografia.html">Begoña Fernández Veiga</a></li>
+            <li><a href="home.html">Home</a></li>    
+            <li><a href="biografia.html">Biografía</a></li>
+            <li><a href="porfolio.html">Curriculum</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -28,15 +31,18 @@
                 
                 Estuve 1 año viviendo en Paraguay con una beca del Fondo Europeo, trabajando como administrativa en el Centro Cultural de España en Paraguay.
                 
-                Desde que volví he estado trabajando en el mismo sitio como administrativa, llevando todo tipo de tareas, desde atención a cliente y proveedores, generar albaranes y facturas, realizar remesas y giros bancarios, realizar asientos contables, o encargarme de gestionarla tienda online. Esto ultimo, es una de las razones que me llevo a realizar el Bootcamp de The Bridge, y que gracias a el me he convertido en desarrolladora Web Full Stack.
+                Desde que volví he estado trabajando en la misma empresa trabajando como oficial administrativa, llevando todo tipo de tareas, desde atención a cliente y proveedores, generar albaranes y facturas, realizar remesas y giros bancarios, realizar asientos contables, o encargarme de gestionarla tienda online. Esto ultimo, es una de las razones que me llevo a realizar el Bootcamp de The Bridge, y que gracias a el me he convertido en desarrolladora Web Full Stack.
                 
                 Ahora me gustaría encontrar una empresa que me ayude a seguir creciendo y aprendiendo en esta dirección.
                 </p>
-            <img src="imagenes/bego.jpeg" alt="foto de bego">
-            <section>
-                <button type="contacto" value="contacto> <a href=".contacto.html"> Datos de contacto</a> </button>
-            </section>        
         </article>
+        <article id="fotoBego">
+            <img src="imagenes/bego.jpeg" alt="foto de bego">
+        </article>
+
+        <article id="contacto" class="contacto">
+                <a href="contacto.html"> Datos de contacto</a>
+         </article>     
     </main>
     <footer>
         <p>Derechos de autor © 2021 Mi sitio web</p>

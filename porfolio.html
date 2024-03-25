@@ -3,48 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="porfolio" content="porfolio">
-    <title>porfolio</title> 
-    <link rel="stylesheet" href="porfolio.css">
-    <link rel="stylesheet" href="general.css">
-    <link href='https://fonts.googleapis.com/css?family=Scheherazade New' rel='stylesheet'>
-
+    <meta name="curriculum" content="curriculum bego">
+    <title>curriculum</title> 
+ 
 </head>
-<body>
+<body class="cvBego">
+    <div>
+        <link rel="stylesheet" href="porfolio.css">
+        <link rel="stylesheet" href="general.css">
+    <link href='https://fonts.googleapis.com/css?family=Scheherazade New' rel='stylesheet'>
+    </div>
     <header>
-        <nav>
-            <ul>
-            <li><a href=".home.html">Home</a></li>    
-            <li><a href=".biografia.html">Biografía</a></li>
-            <li><a href=".porfolio.html">Porfolio</a></li>
-            <li><a href=".contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav class="barra_navegacion">
+        <ul>
+        <li class="izquierda"><a href="biografia.html">Begoña Fernández Veiga</a></li>
+        <li><a href="home.html">Home</a></li>    
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="porfolio.html">Curriculum</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
     </header>
     <main>
-        <h1>Trabajos</h1>
-        <article class="trabajos" id="trabajos">
-            <section class="trabjo 1" id="trabajo 1">
-                <h2>Bizkarra</h2>
-                <p> este trabajo jsdbskahds</p>
-                <img>
-            </section>
-            <section class="trabjo 2" id="trabajo 2">
-                <h2>Bizkarra</h2>
-                <p> este trabajo jsdbskahds</p>
-                <img>
-            </section>
-            <section class="trabjo 3" id="trabajo 3">
-                <h2>Bizkarra</h2>
-                <p> este trabajo jsdbskahds</p>
-                <img>
-            </section>
-            <section class="trabjo 4" id="trabajo 4">
-                <h2>Bizkarra</h2>
-                <p> este trabajo jsdbskahds</p>
-                <img>
-            </section>
-        </article>
+        <h1>Trabajé con</h1>
+        <div class="grid-container">
+
+          <div>   
+            <h3>Pastelería Bizkarra S.L.</h3>
+            <h4>
+              - Registro y control de albaranes<br>
+              - Emisión de facturas<br>
+              - Registro y control de facturas y recibos <br>
+              - Remesas y giros bancarios<br>
+              - Contabilidad <br>
+              - Gestión de pedidos <br>
+              - Atención al cliente<br></h4>
+             <img src="imagenes/bizkarra.png" alta="logo Bizkarra">
+          </div>
+
+          <div>
+           <h3>Centro Cultural de España en Paraguay. Juan de Salazar.</h3>
+           <h4>
+            Realizando una beca en el Centro Cultural Juan de Salazar en Asunción (Paraguay), realizando tareas administrativas:<br>
+
+            - Facturación<br>
+            - Seguimiento de los gastos<br>
+            - Preparación de contratos<br>
+            - Solicitudes de fondos<br>
+            - ...<br></h4>         
+           <img src="imagenes/ccepy.png" alta="logo ccepy">
+         </div>
+
+          <div>   
+            <h3>Museo Guggenheim de Bilbao</h3>
+            <h4>Atención al visitante, información y entrega de audioguías.</h4>
+            <img src="imagenes/guggi.png" alta="logo guggi">
+          </div>  
+
+          <div>   
+            <h3>S2G Deloitte</h3>
+            <h4>Participación en un equipo encargado de la organización y gestión de la Junta General de accionistas de IBERDROLA, en un proyecto gestionado por Deloitte. El trabajo desarrollado consistía en el escrutinio como la revisión del proceso de votación. Así como el registro de los accionistas el día de la junta.</h4>
+            <img src="imagenes/s2g.png" alta="logo s2g">
+          </div>
+        
+        </div>
+        
     </main>
     <footer>
         <div class="iconos rss">

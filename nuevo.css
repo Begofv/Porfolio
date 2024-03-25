@@ -1,0 +1,14 @@
+.presentacion {
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+}        
+.breveDescripcion {
+    flex:0; /* El texto debe ocupar todo el espacio restante */
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+.imagen {
+    flex: 0 0 auto; /* La imagen no debe crecer ni encoger */
+    margin-right: 20px; /* Margen a la derecha para separar la imagen del texto */
+}
+
